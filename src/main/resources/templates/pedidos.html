@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Café da Vila — uma cafeteria gourmet com grãos especiais, doces artesanais e ambiente acolhedor.">
+    <title>Café da Vila Gourmet</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/css/style.css">
+
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+            <div class="container">
+                <a class="navbar-brand">☕ Café da Vila</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal"
+                    aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menuPrincipal">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link active" href="index.html">Início</a></li>
+                        <li class="nav-item"><a class="nav-link" href="produtos.html">Produtos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="pedidos.html">Pedidos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="..." class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <section id="home" class="hero">
+            <div class="container hero-content">
+                <div class="row align-items-center">
+                    <div class="col-lg-8">
+                        <div class="eyebrow">Produtos</div>
+                        <h1>O sabor da pausa mais especial.</h1>
+                        <p class="lead">
+                            Grãos cuidadosamente selecionados, receitas artesanais e um ambiente acolhedor para
+                            transformar cada encontro em uma experiência memorável.
+                        </p>
+
+                        <div class="btns d-flex gap-3 flex-wrap">
+                            <a href="#produtos" class="btn btn-coffee">Conhecer o menu</a>
+                            <a href="#sobre" class="btn btn-outline-light">Nossa história</a>
+                        </div>
+
+                        <div class="hero-badges">
+                            <span class="badge-item">Grãos premium</span>
+                            <span class="badge-item">Doces artesanais</span>
+                            <span class="badge-item">Ambiente acolhedor</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    
+
+        <section id="produtos" class="section">
+            <div class="container">
+                <div class="text-center">
+                    <span class="eyebrow" style="color: var(--caramelo-escuro); margin-bottom: 1rem;">
+                        Nossos favoritos
+                    </span>
+                    <h2 class="section-title">Especialidades da casa</h2>
+                    <p class="section-text">
+                        Sabores intensos, combinações sofisticadas e receitas criadas para despertar o paladar
+                        com equilíbrio, aroma e personalidade.
+                    </p>
+                </div>
+
+                <div class="menu-wrapper">
+                    <article class="card-product">
+                        <img src="https://images.unsplash.com/photo-1498804103079-a6351b050096?auto=format&fit=crop&w=900&q=80"
+                            alt="Café coado premium">
+                        <div class="card-body">
+                            <h3>Café Coado Especial</h3>
+                            <p>
+                                Extraído com precisão para revelar notas de cacau, fruta e aroma intenso, criando
+                                uma experiência equilibrada e sofisticada.
+                            </p>
+                            <span class="price">R$ 8,90</span>
+                        </div>
+                    </article>
+
+                    <article class="card-product">
+                        <img src="https://images.unsplash.com/photo-1572449043416-55f4685c9bb7?auto=format&fit=crop&w=900&q=80"
+                            alt="Cappuccino gourmet">
+                        <div class="card-body">
+                            <h3>Cappuccino da Vila</h3>
+                            <p>
+                                Espresso encorpado com leite vaporizado e espuma cremosa, finalizado com um toque
+                                de canela e aroma acolhedor.
+                            </p>
+                            <span class="price">R$ 12,90</span>
+                        </div>
+                    </article>
+
+                    <article class="card-product">
+                        <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=900&q=80"
+                            alt="Croissant artesanal">
+                        <div class="card-body">
+                            <h3>Croissant Artesanal</h3>
+                            <p>
+                                Massa folhada assada diariamente, com textura crocante e aroma irresistível,
+                                ideal para acompanhar qualquer bebida.
+                            </p>
+                            <span class="price">R$ 10,90</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="experiencia" class="section experience">
+            <div class="container">
+                <div class="experience-grid">
+                    <div>
+                        <span class="eyebrow" style="color: var(--caramelo-escuro); margin-bottom: 1rem;">
+                            A experiência perfeita
+                        </span>
+                        <h2 class="section-title">Um espaço pensado para desacelerar.</h2>
+                        <p class="section-text" style="margin-left: 0; margin-right: 0; text-align: left;">
+                            Entre aromas, iluminação suave e detalhes cuidadosamente escolhidos, cada ambiente do
+                            Café da Vila foi projetado para oferecer momentos de bem-estar, conversa e prazer
+                            sensorial.
+                        </p>
+
+                        <div class="experience-list">
+                            <div class="experience-item">
+                                <div class="exp-number">1</div>
+                                <div>
+                                    <h4>Grãos especiais</h4>
+                                    <p>Selecionamos cafés com perfis únicos e sabor marcante para elevar cada bebida.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="experience-item">
+                                <div class="exp-number">2</div>
+                                <div>
+                                    <h4>Preparação artesanal</h4>
+                                    <p>Todo processo respeita a proporção, a temperatura e o timing ideal para um café
+                                        impecável.</p>
+                                </div>
+                            </div>
+
+                            <div class="experience-item">
+                                <div class="exp-number">3</div>
+                                <div>
+                                    <h4>Ambiente acolhedor</h4>
+                                    <p>Um espaço pensado para encontros, trabalho, leitura e pequenas pausas de prazer.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="experience-image">
+                        <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1200&q=80"
+                            alt="Interior elegante de uma cafeteria gourmet">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section gallery">
+            <div class="container">
+                <div class="text-center">
+                    <span class="eyebrow" style="color: var(--caramelo-escuro); margin-bottom: 1rem;">
+                        Galeria
+                    </span>
+                    <h2 class="section-title">A atmosfera do nosso café</h2>
+                </div>
+
+                <div class="gallery-grid mt-5">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=800&q=80"
+                            alt="Café servido com sobremesa">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=800&q=80"
+                            alt="Detalhes de um café gourmet">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=800&q=80"
+                            alt="Mesa de café com doces">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=800&q=80"
+                            alt="Cafeteria com ambiente elegante">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section testimonials">
+            <div class="container">
+                <div class="text-center">
+                    <span class="eyebrow" style="color: var(--caramelo-escuro); margin-bottom: 1rem;">
+                        Avaliações
+                    </span>
+                    <h2 class="section-title">O que nossos clientes dizem</h2>
+                </div>
+
+                <div class="testimonials-grid mt-5">
+                    <article class="testimonial">
+                        <div class="stars">★★★★★</div>
+                        <p>
+                            “O ambiente é incrível, o café tem sabor sofisticado e a atenção é impecável.
+                            É o lugar ideal para uma pausa bem merecida.”
+                        </p>
+
+                        <div class="client">
+                            <div class="avatar">AL</div>
+                            <div>
+                                <strong>Ana L.</strong>
+                                <small>Cliente recorrente</small>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="testimonial">
+                        <div class="stars">★★★★★</div>
+                        <p>
+                            “A combinação de café e doces artesanais é simplesmente perfeita. O atendimento é
+                            acolhedor e os sabores fazem você voltar sempre.”
+                        </p>
+
+                        <div class="client">
+                            <div class="avatar">RM</div>
+                            <div>
+                                <strong>Rafael M.</strong>
+                                <small>Amante de café</small>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="testimonial">
+                        <div class="stars">★★★★★</div>
+                        <p>
+                            “Fui conhecer o espaço e adorei a proposta gourmet. Cada detalhe transmite qualidade,
+                            conforto e sabor em cada xícara.”
+                        </p>
+
+                        <div class="client">
+                            <div class="avatar">CS</div>
+                            <div>
+                                <strong>Carla S.</strong>
+                                <small>Visitante frequente</small>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="cta">
+            <div class="container">
+                <span class="eyebrow" style="color: #f6d7ad;">
+                    Café da Vila
+                </span>
+                <h2>Seu momento favorito começa aqui.</h2>
+                <p>
+                    Entre em contato e descubra uma seleção de cafés, doces e experiências pensadas para
+                    tornar cada visita especial.
+                </p>
+                <a href="https://wa.me/5511999999999" class="btn btn-coffee px-4 py-3">Pedir pelo WhatsApp</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container text-center">
+            <div class="brand">☕ Café da Vila</div>
+            <p class="mt-2">Cafés especiais, doces artesanais e momentos acolhedores.</p>
+
+            <div class="socials">
+                <a href="#" aria-label="Instagram">◎</a>
+                <a href="#" aria-label="Facebook">◌</a>
+                <a href="#" aria-label="WhatsApp">✆</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>
